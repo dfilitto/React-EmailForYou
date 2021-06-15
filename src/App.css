@@ -1,0 +1,95 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Syne Mono', monospace;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	
+}
+body{
+	background-color: #0583F2;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+header, nav, main, footer{
+	width: 95%;
+	margin: 2px auto;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 110px;
+	border-bottom:1px dashed #5471B4;
+}
+
+footer{
+	border-top:1px dashed #5471B4;
+}
+
+h1, h2, h3, label, input[type="submit"]{
+	color: #ffffff;
+}
+
+fieldset{
+	padding: 10px;
+	margin: 10px;
+	border:1px dashed #F2E527;
+	font-weight: bold;
+}
+
+legend{
+	margin-left: 35px;
+}
+legend h2{
+	margin: 0px 5px;
+}
+form{	
+	padding: 4px;
+}
+form label, form input{
+	display: block;
+	margin: 4px;
+}
+
+form input{
+	width: 90%;
+	margin: 2px auto;
+	height: 35px;
+	font-size: 26px;
+}
+
+form select{
+	width: 100%;
+	margin: 2px auto;
+	height: 35px;
+	font-size: 26px;
+  
+}
+
+
+form label{
+	width: 90%;
+	margin: 2px auto;
+	height: 35px;
+	font-size: 26px;
+}
+
+form input[type="submit"]{	
+	margin: 20px auto;
+	background-color: #70BAFB;
+	border:none;
+	border-radius: 2px 2px 2px 2px;
+}
+
+form input[type="submit"]:hover{
+	background-color: #74b4f3;
+}
